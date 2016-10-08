@@ -9,7 +9,7 @@ module.exports = function (app) {
 router.get('/', function (req, res, next) {
   var articles = [new Article(), new Article()];
     res.render('index', {
-      title: 'HW from AZURE nodejs',
+      title: 'HW from AZURE nodejs without node_modules',
       articles: articles
     });
 });
